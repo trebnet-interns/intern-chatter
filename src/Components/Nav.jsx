@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Link } from "react-scroll";
 import { FaTimes, FaHome } from "react-icons/fa";
 import { IoMdMenu } from "react-icons/io";
