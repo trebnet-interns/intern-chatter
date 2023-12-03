@@ -4,6 +4,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import GridLoader from "react-spinners/GridLoader";
 import './App.css'
+import Profilepage from "./Components/profilepage";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -11,13 +12,14 @@ function App() {
   return (
     <div className="App">
 
-        <div className="item">
+        {/* <div className="item">
           <GridLoader
           loading={loading}
           size={13}
           color="blue"
           />
-        </div>
+        </div> */}
+        <Profilepage />
     </div>
   );
 }
