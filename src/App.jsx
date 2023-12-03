@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="App">
 
-        {/* <div className="item">
+        <div className="item">
           <GridLoader
           loading={loading}
           size={13}
           color="blue"
           />
-        </div> */}
+        </div>
         <Profilepage />
     </div>
   );
